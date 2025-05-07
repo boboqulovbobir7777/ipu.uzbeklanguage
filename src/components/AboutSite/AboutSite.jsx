@@ -28,7 +28,7 @@ export default function AboutSite() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    const countRef = ref(database, "visitorCount/ipu.uzbeklanguage");
+    const countRef = ref(database, "visitorCount/ipuuzbeklanguage");
     const pageKey = "visited_about";
 
     if (!sessionStorage.getItem(pageKey)) {
